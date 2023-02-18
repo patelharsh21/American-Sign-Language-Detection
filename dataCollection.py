@@ -8,7 +8,7 @@ detector=HandDetector(maxHands=1)#1 hand can only be detected at once
 offset=20#extra space for the imgCrop
 imgSize=300#pixel size of our custom image
 counter=1
-folder="images/c"
+folder="images/r"
 while True:
     success,img=cap.read()
     hands,img=detector.findHands(img)
