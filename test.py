@@ -20,14 +20,15 @@ while True:
         imgWhite=np.ones((imgSize,imgSize,3),np.uint8)*255#np.ones creates a numpy array 
         #of size imgSize*imgSize and stores value 1 in it 
 
-        imgCrop=img[y-offset:y+h+offset,x-offset:x+h+offset]#offset value is used to get
+        imgCrop=img[y-offset:y+h+offset,x-offset:x+h+offset]#x-w should  be used dont know why are we using x+h
+        #offset value is used to get
         # more space around hands in the image
         
         #putting the crop image into the white image
         imgCropShape=imgCrop.shape
         #below code is used to get the image in  the between of the frame and to make the 
         #so that we can make the correct prediction 
-        #
+        
         aspectRatio=h/w
 
         if aspectRatio>1:#if the hieght is greater than the width
