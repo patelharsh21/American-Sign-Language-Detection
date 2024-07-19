@@ -1,1 +1,1 @@
-# minor-project
+# American-sign-language-detection
