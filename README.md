@@ -14,7 +14,7 @@ this problem by creating a system that can easily translate ASL gestures into te
 to understand
 
 ## Running project
-'python3 run test.py'
+`python3 run test.py`
 
 # Screenshot
 ![image](https://github.com/user-attachments/assets/3f133460-7601-4b65-80c1-ad52a61032df)
